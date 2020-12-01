@@ -29,7 +29,7 @@ Upload the repository to your web server:
 	
 Copy the config template:
 
-	cd os
+	cd ../os
 	cp ../pikvm-rock64/config.mk.rock64 config.mk
 	
 Edit config.mk and set PIKVM_REPO_URL and PIKVM_REPO_KEY to the proper values for the repository on your server.
