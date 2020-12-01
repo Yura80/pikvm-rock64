@@ -1,0 +1,12 @@
+BOARD = rock64
+ARCH = aarch64
+PLATFORM = v2-hdmiusb
+STAGES = __init__ os boot pikvm-repo watchdog ro pikvm pikvm-image __cleanup__
+REPO_URL = http://mirror.archlinuxarm.org
+BUILDER_URL = https://github.com/Yura80/pi-builder
+HOSTNAME = pikvm64
+TIMEZONE = America/New_York 
+CARD_DATA_FS_TYPE = ext4
+
+PIKVM_REPO_URL = http://example.com/pikvm/repos
+PIKVM_REPO_KEY = 0123456789ABCDEF
