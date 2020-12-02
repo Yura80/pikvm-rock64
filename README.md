@@ -1,6 +1,7 @@
 # [PI-KVM](https://github.com/pikvm/pikvm) fork for rock64 board
 
 This is experimental and unsupported. 
+Prebuilt image is available here: https://mega.nz/file/VQtSQJDb#bkONAszWf2yj3-o_fEIFmEsakf9ngu6QLxjjPYppkKg
 
 ### Building
 
