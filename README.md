@@ -1,7 +1,6 @@
-# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64 board
+# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64 and other boards
 
 This is experimental and unsupported. 
-Prebuilt image is available here: https://mega.nz/file/VQtSQJDb#bkONAszWf2yj3-o_fEIFmEsakf9ngu6QLxjjPYppkKg
 
 ### Building
 
@@ -20,15 +19,15 @@ Clone the repositories:
 Build the packages:
     
     cd packages
-    make buildenv BOARD=rock64 ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
-    make packages-rock64 BOARD=rock64 ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make buildenv BOARD=generic ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make packages-generic BOARD=generic ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
 
 
 Upload the repository to your web server:
 
-	make upload _REPO_DEST=root@example.org:/var/www/pikvm/
+	make upload _REPO_DEST=root@example.com:/var/www/pikvm/
 	
-Copy the config template:
+Copy the config template for your board:
 
 	cd ../os
 	cp ../pikvm-rock64/config.mk.rock64 config.mk
