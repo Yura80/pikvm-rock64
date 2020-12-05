@@ -1,8 +1,8 @@
-# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64 and other boards
+# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64, NanoPi Neo, Orange Pi and other boards
 
 This is experimental and unsupported.
 
-Pre-built images available here: https://mega.nz/folder/8c8FgYxb#zEIpTfSWMI0AVJzRoH7sbg
+Some pre-built images are available here: https://mega.nz/folder/8c8FgYxb#zEIpTfSWMI0AVJzRoH7sbg
 
 ### Building
 
