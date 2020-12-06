@@ -22,7 +22,11 @@ Build the packages:
     
     cd packages
     make buildenv BOARD=generic ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make update BOARD=generic ARCH=aarch64
     make packages-generic BOARD=generic ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make buildenv BOARD=generic ARCH=arm _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make update BOARD=generic ARCH=arm
+    make packages-generic BOARD=generic ARCH=arm _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
 
 
 Upload the repository to your web server:
