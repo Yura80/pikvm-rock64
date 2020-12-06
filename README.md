@@ -3,6 +3,7 @@
 This is experimental and unsupported.
 
 Some pre-built images are available here: https://mega.nz/folder/8c8FgYxb#zEIpTfSWMI0AVJzRoH7sbg
+To make OTG keyboard/mouse work on Rock64 and Libretech boards you should use USB A-to-A cable connected to the top left USB port.
 
 ### Building
 
