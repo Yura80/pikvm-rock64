@@ -1,6 +1,6 @@
 BOARD = generic
 ARCH = arm
-UBOOT = orangepi-zero
+UBOOT = nanopi-neo
 PLATFORM = v2-hdmiusb
 STAGES = __init__ os pikvm-repo watchdog ro pikvm pikvm-image __cleanup__
 REPO_URL = http://mirror.archlinuxarm.org
