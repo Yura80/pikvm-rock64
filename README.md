@@ -1,6 +1,10 @@
-# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64 and other boards
+# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64, NanoPi Neo, Orange Pi and other boards
 
-This is experimental and unsupported. 
+This is experimental and unsupported.
+
+Some pre-built images are available here: https://mega.nz/folder/8c8FgYxb#zEIpTfSWMI0AVJzRoH7sbg
+
+To make OTG keyboard/mouse work on Rock64 and Libretech boards you should use USB A-to-A cable connected to the top left USB port.
 
 ### Building
 
@@ -20,7 +24,11 @@ Build the packages:
     
     cd packages
     make buildenv BOARD=generic ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make update BOARD=generic ARCH=aarch64
     make packages-generic BOARD=generic ARCH=aarch64 _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make buildenv BOARD=generic ARCH=arm _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
+    make update BOARD=generic ARCH=arm
+    make packages-generic BOARD=generic ARCH=arm _REPO_KEY=XXXXXXXXXXXXXXXX _PIBUILDER_REPO=https://github.com/Yura80/pi-builder
 
 
 Upload the repository to your web server:
