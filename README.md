@@ -1,10 +1,10 @@
-# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64, NanoPi Neo, Orange Pi and other boards
+# [PI-KVM](https://github.com/pikvm/pikvm) fork for Rock64, NanoPi, Orange Pi and other boards
 
-This is experimental and unsupported.
+This is experimental and unsupported. Some features may not work.
 
-Some pre-built images are available here: https://mega.nz/folder/8c8FgYxb#zEIpTfSWMI0AVJzRoH7sbg
+Pre-built images are available here: https://github.com/Yura80/os/releases
 
-To make OTG keyboard/mouse work on Rock64 and Libretech boards you should use USB A-to-A cable connected to the top left USB port.
+To make OTG keyboard and mouse work on Rock64 and Libre Computer boards, use an A-to-A USB cable connected to the top left USB port.
 
 ### Building
 
